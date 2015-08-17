@@ -15,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - draggebles
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Blocks
+  - name: Grid
+    uniqueID: 2458856667
+    locked: 0
+  - name: Figures
     uniqueID: 4158159805
     locked: 0

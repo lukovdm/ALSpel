@@ -27,7 +27,7 @@ GameObject:
   - 114: {fileID: 11490644}
   - 61: {fileID: 6159246}
   - 50: {fileID: 5014058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Square
   m_TagString: Draggable
   m_Icon: {fileID: 0}
@@ -186,6 +186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d263252ce9f5744981956f58471b082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!212 &21221318
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -208,7 +211,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -136807491
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1afe8d8e3d4370d448229b4ca02fcf30, type: 3}
   m_Color: {r: .95588237, g: .105428189, b: .105428189, a: 1}
@@ -234,7 +237,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -136807491
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1afe8d8e3d4370d448229b4ca02fcf30, type: 3}
   m_Color: {r: .95588237, g: .105428189, b: .105428189, a: 1}
@@ -260,7 +263,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -136807491
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1afe8d8e3d4370d448229b4ca02fcf30, type: 3}
   m_Color: {r: .95588237, g: .105428189, b: .105428189, a: 1}
@@ -286,7 +289,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: -136807491
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1afe8d8e3d4370d448229b4ca02fcf30, type: 3}
   m_Color: {r: .95588237, g: .105428189, b: .105428189, a: 1}
@@ -304,6 +307,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_GravityScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SortingLayerID
+      value: -136807491
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

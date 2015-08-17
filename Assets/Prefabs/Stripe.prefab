@@ -59,7 +59,7 @@ GameObject:
   - 114: {fileID: 11412122}
   - 61: {fileID: 6138792}
   - 50: {fileID: 5075096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stripe
   m_TagString: Draggable
   m_Icon: {fileID: 0}
@@ -186,6 +186,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d263252ce9f5744981956f58471b082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!212 &21214560
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -296,7 +299,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 174178}
